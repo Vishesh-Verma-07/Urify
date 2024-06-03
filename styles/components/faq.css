@@ -1,0 +1,39 @@
+.faq{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.faq__item{
+    padding: 2em;
+    margin: 1.5em 0;
+    border-radius: 0.5em;
+}
+
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+@media (min-width: 768px) {
+    .faq{
+        flex-direction: row;
+    }
+    .faq__item{
+        padding: 2em;
+        margin: 1.5em 0;
+        border-radius: 0.5em;
+    }
+}
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
